@@ -12,14 +12,13 @@ const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  border: 2px solid rgba(0, 0, 0, 0.2);
-  font-size: 18px;
+  border: 5px solid rgba(0, 0, 0, 0.2);
+  font-size: 20px;
   border-radius: 12px;
 `;
 
 const MainNav = styled.ul`
   list-style-type: none;
-  flex-direction: column;
   padding: 2px;
   @media (min-width: 768px) {
     display: flex !important;
@@ -29,13 +28,15 @@ const MainNav = styled.ul`
 `;
 const NavLi = styled.li`
   text-align: center;
-  padding: 2px;
+  padding: 4px;
 `;
 
 const IconImg = styled.img`
   width: 40px;
   height: 38px;
 `;
+
+const NavDiv = styled.div``;
 
 const Navbar = () => {
   return (
