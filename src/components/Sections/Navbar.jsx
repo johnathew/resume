@@ -20,6 +20,8 @@ const Nav = styled.nav`
 const MainNav = styled.ul`
   list-style-type: none;
   padding: 2px;
+  display: flex;
+  flex-direction: row;
   @media (min-width: 768px) {
     display: flex !important;
     margin-right: 30px;
@@ -36,7 +38,6 @@ const IconImg = styled.img`
   height: 38px;
 `;
 
-const NavDiv = styled.div``;
 
 const Navbar = () => {
   return (
