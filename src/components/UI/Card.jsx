@@ -1,14 +1,13 @@
 import styled from "styled-components";
 
 const CardDiv = styled.div`
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: #182118;
-  padding: 1.5rem;
-  max-width: 50rem;
+  max-width: 60rem;
   margin: auto;
   display: flex;
   flex-direction: column;
-  border: 1.7px solid black;
+  border: 2px solid black;
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.25);
 `;
 

@@ -1,18 +1,22 @@
-import Body from "../Sections/Body";
-import Footer from "../Sections/Footer"
-import Header from "../Sections/Header";
-import Card from "../UI/Card"
-import Navbar from "../Sections/Navbar";
+import Body from '../Sections/Body'
+import Footer from '../Sections/Footer'
+import Card from '../UI/Card'
+import Navbar from '../Sections/Navbar'
+import Sidebar from '../Sidebar'
+
+// home = layout
 
 const Home = () => {
   return (
-    <Card>
+    <>
       <Navbar />
-      <Header />
-      <Body />
-      <Footer />
-    </Card>
-  );
-};
+      <Card>
+        <Body />
+        <Footer />
+      </Card>
+      <Sidebar />
+    </>
+  )
+}
 
-export default Home;
+export default Home
