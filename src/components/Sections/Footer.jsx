@@ -1,15 +1,10 @@
-import styled from "styled-components";
 
-const FooterMain = styled.footer`
-    color: white;
-    margin-top: 50px;
-`
 
 const Footer = () => {
-    return( <FooterMain>
+    return( <footer>
         This is the bottom of the page, thank you for perusing my website <br />
         -John Kornegay
-    </FooterMain>)
+    </footer>)
 }
 
 export default Footer;

@@ -3,6 +3,7 @@ import Footer from '../Sections/Footer'
 import Card from '../UI/Card'
 import Navbar from '../Sections/Navbar'
 import Sidebar from '../Sidebar'
+import Header from '../Sections/Header'
 
 // home = layout
 
@@ -11,6 +12,7 @@ const Home = () => {
     <>
       <Navbar />
       <Card>
+        <Header />
         <Body />
         <Footer />
       </Card>

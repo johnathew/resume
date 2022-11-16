@@ -4,10 +4,9 @@ import linkedinIcon from '../../assets/images/LinkedIn.png'
 import HomeIcon from '../../assets/images/home.png'
 import ProjectIcon from '../../assets/images/briefcase.png'
 
-
 const Navbar = () => {
   return (
-    <nav class="w-1/2 mx-auto h-8 flex flex-row font-semibold justify-between items-center border-x-2 border-b-2 px-2 sticky text-gray-900 bg-gray-100 border-teal-900 ">
+    <nav class="md:w-1/2 mx-auto h-10 flex flex-row justify-between items-center border-x-2 border-b-2 px-2 sticky text-gray-900 bg-gray-100 border-slate-600 font-bold text-lg z-0">
       Resume
       <div class="w-17 h-auto">
         <ul class="list-none flex flex-row text-center space-x-2 items-center p-2">
